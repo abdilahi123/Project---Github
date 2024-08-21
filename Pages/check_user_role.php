@@ -22,6 +22,6 @@ function checkUserRole($user_id, $role_name) {
         return false;
     }
 
-    // $conn->close();
+    // $conn->close();-=
 }
 ?>

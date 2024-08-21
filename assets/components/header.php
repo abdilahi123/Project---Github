@@ -22,7 +22,8 @@ $user_name = $_SESSION['name'];
     <meta name="author" content="">
     
 
-    <title>Nursary Dashboard</title>
+    <title>Nursery Dashboard</title>
+    
 
     <!-- Custom fonts for this template-->
     <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

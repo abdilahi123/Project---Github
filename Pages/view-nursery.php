@@ -4,7 +4,7 @@ include '../assets/components/sidebar.php'
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">DataTable</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Available Nursery Schools</h6>
 
     </div>
     <div class="row mt-3 ml-2">

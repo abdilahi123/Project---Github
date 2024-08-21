@@ -21,6 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Execute SQL statement
         if ($stmt->execute()) {
             echo "New record created successfully";
+            header("Location: ../../Pages/view-nursery.php");
         } else {
             echo "Error: " . $stmt->error;
         }

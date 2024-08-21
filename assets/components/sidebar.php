@@ -1,17 +1,17 @@
 <body id="page-top" style="color: blue;">
 
     <!-- Page Wrapper -->
-    <div id="wrapper" style="background-color: orange;">
+    <div id="wrapper" style="background-color: blue;">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: orange;" >
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: blue;" >
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="./dashboard.php" >
                 <div class="sidebar-brand-icon rotate-n-15">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
                 </div>
-                <div class="sidebar-brand-text mx-3">NURSERY</div>
+                <div class="sidebar-brand-text mx-3">NURSERY SCHOOL</div>
             </a>
 
             <!-- Divider -->
@@ -21,8 +21,8 @@
             <li class="nav-item active" >
                 <a class="nav-link" href="dashboard.php">
 
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                  
+                    <span><b>Dashboard</b></span></a>
             </li>
 
             <!-- Divider -->
@@ -65,7 +65,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="user_manage.php">
                         <i class="fas fa-fw fa-cog"></i>
-                        <span>user manage</span></a>
+                        <span>User Manage</span></a>
                 </li>
                 <?php
             } else {
@@ -80,7 +80,7 @@
 
                
                 <li class="nav-item">
-                    <a class="nav-link" href="view-nursery.php">
+                    <a class="nav-link" href="user-bookings.php">
                         <i class="fas fa-fw fa-cog"></i>
                         <span>My application</span>
                     </a>
@@ -90,30 +90,7 @@
             }
             ?>
 
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="user_manage.php">
-                <i class="fas fa-fw fa-cog"></i>
-                    <span>User</span></a>
-            </li> -->
-
-
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                    </div>
-                </div>
-            </li> -->
-
+          
 
 
 
@@ -145,18 +122,8 @@
                     </button>
 
                     <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+
+                   <div ujumbe><b>WELCOME TO NURSERY SCHOOL</b></div> 
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -194,21 +161,18 @@
                                 </span>
                                 <img class="img-profile rounded-circle" src="../assets/img/undraw_profile.svg">
                             </a>
-                            <!-- Dropdown - User Information -->
+                            <Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
+                                    <!--<i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>-->
+                                
                                 </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>
-                                <a class="dropdown-item" href="#">
+                              
+                                <!-- <a class="dropdown-item" href="#">
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Activity Log
-                                </a>
+                                </a> -->
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>

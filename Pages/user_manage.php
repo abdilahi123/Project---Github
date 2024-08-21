@@ -1,5 +1,23 @@
 <?php include '../assets/components/header.php';
-include '../assets/components/sidebar.php'
+include '../assets/components/sidebar.php';
+
+
+if (isset($_GET['status'])) {
+  // Sanitize and validate the status
+  $status = htmlspecialchars($_GET['status']); // Use htmlspecialchars to avoid XSS attacks
+
+  // Display message based on the status
+  if ($status === 'success') {
+      echo '<div class="alert alert-success" role="alert">User deleted successfully.</div>';
+  } elseif ($status === 'error') {
+      echo '<div class="alert alert-danger" role="alert">Error deleting user.</div>';
+  } elseif ($status === 'invalid') {
+      echo '<div class="alert alert-warning" role="alert">Invalid user ID.</div>';
+  } else {
+      echo '<div class="alert alert-info" role="alert">Unknown status.</div>';
+  }
+}
+
   ?>
 
 
@@ -81,7 +99,7 @@ include '../assets/components/sidebar.php'
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
     <h1>All People Registed</h1>
 
 <!-- Users Table -->

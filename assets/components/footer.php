@@ -1,8 +1,9 @@
  <!-- Footer -->
  <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Nursery Managment 2024</span>
+                    <div class="copyright text-center my-auto"><b>
+
+                                         <br> <br>  <br> <br> <br> <br><span>Copyright &copy; Nursery Managment 2024</span></br></br></br></br></br></br>
                     </div>
                 </div>
             </footer>
@@ -30,10 +31,10 @@
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Select "Are you really want to log out?.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="../assets/handler/logoutHandler.php">Logout</a>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">NO</button>
+                    <a class="btn btn-primary" href="../assets/handler/logoutHandler.php">YES</a>
                 </div>
             </div>
         </div>
@@ -41,7 +42,7 @@
 
     <!-- Bootstrap core JavaScript-->
     <script src="../assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../js/popper.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="../js/popper.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="abdy"></script>
 
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

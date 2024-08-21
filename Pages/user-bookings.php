@@ -7,10 +7,10 @@ include '../assets/components/sidebar.php'
 <body class="bg-gradient-primary">
     <!-- Begin Page Content -->
     <div class="container">
-        <h1>All Bookings</h1>
+        <h1>My Application</h1>
 
         <!-- Users Table -->
-        <?php include '../assets/handler/fetch_booking.php'; ?>
+        <?php include '../assets/handler/fetch_users_booking.php'; ?>
     </div>
 
 
